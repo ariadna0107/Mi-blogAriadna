@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    width: 100%;
+    
+	font-family: 'Helvetica', 'Arial', 'Sans-serif';
+		
+}
+
+header {
+	
+	
+    text-align: inherit;
+	left: 0px;
+	margin-left:3%; 
+    background-color: purple;
+	 width: 95%;
+	}
+
+
+
+.sub{
+	
+	font-size: 13px;
+	}
+
+.principal{
+	position: relative;
+	left: 100px;
+}
+
+.ayuda{
+	position: relative;
+	left: 200px;
+	top: -40px;
+	
+}
+
+.contacto{
+	position: relative;
+	left: 280px;
+	top: -80px;
+	
+}
+
+
+
+
+a:hover{
+	text-decoration: underline; 
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+section{
+	float: left;
+	margin-top: -4%;
+	padding-top: -10%;
+    width: 60%;
+    float: left;
+    margin-left: 5%;
+ 
+   
+	
+}
+
+.texto{
+		background-color: orange;
+}
+
+.texto2{
+	background-color: blue;
+}
+
+
+aside{
+    width: 30%;
+    float: right;
+   
+    
+}
+footer{
+    padding-top: 1%;
+    clear: both;
+    text-align: center;
+    margin-left: 15%;
+}
